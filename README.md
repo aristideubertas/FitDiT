@@ -24,11 +24,6 @@
   </a>
 </div>
 
-<p align="center">
-    👋 Join our <a href="resource/img/QQ_group.jpg" target="_blank">QQ Chat Group</a> 
-</p>
-<p align="center">
-
 
 **FitDiT** is designed for high-fidelity virtual try-on using Diffusion Transformers (DiT).
 <div align="center">
@@ -93,16 +88,6 @@ python gradio_sd3.py --model_path local_model_dir --fp16 --offload
 python gradio_sd3.py --model_path local_model_dir --fp16 --aggressive_offload
 ```
 
-## Third-Party Creations
-We found there've been some 3rd party applications or tutorial based on our FitDiT. Many thanks for their contribution to the community! 
-If you have any related work that you would like to see displayed, please submit it in the [issue](https://github.com/BoyuanJiang/FitDiT/issues/new).
-These projects have not been verified by us. If you have any questions, please seek help from the original project authors.
-
-### Tutorial
-- A tutorial of using the comfyui version of FitDiT, from `T8star-Aix` at [youtube](https://www.youtube.com/watch?v=qBQtYYa-bvs) or [bilibili](https://www.bilibili.com/video/BV1U4wpe6EkD/)
-
-### Applications
-- Local one-click integration package of FitDiT, which can be found at [deepface forum](https://deepface.cc/thread-517-1-1.html)
 
 
 ## Citation
