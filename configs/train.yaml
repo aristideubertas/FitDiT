@@ -1,0 +1,49 @@
+model_root: '/data/zsz/ssh/zsz/work/FitDiT/models'
+pretrained_model_name_or_path:: '/data/zsz/ssh/zsz/work/FitDiT/models'
+
+data:
+  train_batch_size: 1
+  dataloader_num_workers: 0
+  height: 1024
+  width: 768
+  image_list: ['/data/zsz/ssh/zsz/work/FitDiT/data.json']
+
+variant: 'fp16'
+save_weight_dtype: 'float32'
+mixed_precision: 'fp16'
+
+enable_model_cpu_offload: True
+set_grads_to_none: True
+enable_xformers_memory_efficient_attention: False
+gradient_checkpointing: True
+
+mode_scale: 1.29
+logit_std: 1.0
+logit_mean: 0.0
+weighting_scheme: 'logit_normal'
+
+proportion_empty_prompts: 0.1
+guidance_scale: 3.5
+
+
+seed: 8888
+checkpoints_total_limit: 10
+checkpointing_steps: 1000
+max_train_steps: 100000
+gradient_accumulation_steps: 1
+lr_warmup_steps: 1000
+lr_scheduler: 'constant'
+learning_rate: 3.0e-5
+scale_lr: False
+
+# optimizer
+use_adafactor: True
+use_8bit_adam: False 
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_weight_decay:  1.0e-2
+adam_epsilon: 1.0e-8
+max_grad_norm: 1.0
+
+resume_from_checkpoint: ''
+output_dir: '/data/zsz/ssh/zsz/work/FitDiT/exp_output'

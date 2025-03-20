@@ -1,0 +1,121 @@
+[
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0049.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0049.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0049.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0049.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0049.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0327.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0327.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0327.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0327.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0327.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/1.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/1.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/1.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/1.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/1.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0317.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0317.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0317.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0317.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0317.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/2.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/2.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/2.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/2.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/2.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/5.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/5.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/5.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/5.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/5.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0023.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0023.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0023.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0023.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0023.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/0047.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/0047.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/0047.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/0047.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/0047.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/9.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/9.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/9.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/9.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/9.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/8.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/8.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/8.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/8.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/8.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/7.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/7.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/7.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/7.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/7.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/6.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/6.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/6.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/6.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/6.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/4.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/4.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/4.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/4.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/4.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/10.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/10.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/10.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/10.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/10.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/11.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/11.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/11.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/11.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/11.pkl"
+    },
+    {
+        "vton_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/model/3.jpg",
+        "garm_img_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/garment/3.jpg",
+        "mask_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/mask/3.jpg",
+        "pose_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/pose/3.jpg",
+        "cloth_embeds_path": "/data/zsz/ssh/zsz/work/FitDiT/examples/cloth_embeds/3.pkl"
+    }
+]
