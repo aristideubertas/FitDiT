@@ -174,6 +174,24 @@ def main(cfg):
 
     # Optimizer creation
     params_to_optimize = transformer_garm.parameters()
+    # params_to_optimize = list(filter(lambda p: p.requires_grad, transformer_garm.parameters()))
+    
+    # transformer_lora_parameters = list(filter(lambda p: p.requires_grad, transformer.parameters()))
+    # if args.train_text_encoder:
+    #     text_lora_parameters_one = list(filter(lambda p: p.requires_grad, text_encoder_one.parameters()))
+
+    # # Optimization parameters
+    # transformer_parameters_with_lr = {"params": transformer_lora_parameters, "lr": args.learning_rate}
+    # if args.train_text_encoder:
+    #     # different learning rate for text encoder and unet
+    #     text_parameters_one_with_lr = {
+    #         "params": text_lora_parameters_one,
+    #         "weight_decay": args.adam_weight_decay_text_encoder,
+    #         "lr": args.text_encoder_lr if args.text_encoder_lr else args.learning_rate,
+    #     }
+    #     params_to_optimize = [transformer_parameters_with_lr, text_parameters_one_with_lr]
+    # else:
+    #     params_to_optimize = [transformer_parameters_with_lr]
     
     # 定义优化器
     if cfg.use_8bit_adam:
@@ -329,7 +347,7 @@ def main(cfg):
                 
                 noise_pred = transformer_garm(
                     hidden_states=noisy_model_input,
-                    timestep=timesteps * 0,
+                    timestep=timesteps,
                     pooled_projections=cloth_image_embeds,
                     encoder_hidden_states=None,
                     return_dict=False
