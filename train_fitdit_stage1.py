@@ -404,7 +404,7 @@ def main(cfg):
                         logger.info(f"Saved state to {save_path}")
                         
                         unwarp_net = accelerator.unwrap_model(transformer_garm)
-                        pipeline = StableDiffusion3TryOnPipeline.from_pretrained(cfg.pretrained_model_name_or_path, transformer_garm=unwarp_net.transformer_garm)
+                        pipeline = StableDiffusion3TryOnPipeline.from_pretrained(cfg.pretrained_model_name_or_path, transformer_garm=unwarp_net)
                         pipeline.save_pretrained(cfg.output_dir)
                         # state_dict = {
                         #     "pose_guider": unwarp_net.pose_guider.state_dict(),
