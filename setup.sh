@@ -1,3 +1,12 @@
+#!/bin/bash
+
+# install conda on amazon linux
+sudo yum install -y wget
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+bash Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+
+# create conda environment
 conda create -n fitdit python=3.10
 conda activate fitdit
 pip install -r requirements.txt
