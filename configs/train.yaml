@@ -4,8 +4,8 @@ pretrained_model_name_or_path:: './models'
 data:
   train_batch_size: 1
   dataloader_num_workers: 0
-  height: 384
-  width: 384
+  height: 256
+  width: 256
   image_list: ['./data.json']
 
 variant: 'fp16'
@@ -14,7 +14,7 @@ mixed_precision: 'fp16'
 
 enable_model_cpu_offload: True
 set_grads_to_none: True
-enable_xformers_memory_efficient_attention: False
+enable_xformers_memory_efficient_attention: True
 gradient_checkpointing: True
 
 mode_scale: 1.29
@@ -30,7 +30,7 @@ seed: 8888
 checkpoints_total_limit: 10
 checkpointing_steps: 1000
 max_train_steps: 100000
-gradient_accumulation_steps: 8
+gradient_accumulation_steps: 16
 lr_warmup_steps: 1000
 lr_scheduler: 'constant'
 learning_rate: 3.0e-5
