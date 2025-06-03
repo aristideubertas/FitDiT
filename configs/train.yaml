@@ -4,8 +4,8 @@ pretrained_model_name_or_path:: '/data/zsz/ssh/zsz/work/FitDiT/models'
 data:
   train_batch_size: 1
   dataloader_num_workers: 0
-  height: 1024
-  width: 768
+  height: 384
+  width: 384
   image_list: ['/data/zsz/ssh/zsz/work/FitDiT/data.json']
 
 variant: 'fp16'

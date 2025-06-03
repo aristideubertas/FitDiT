@@ -95,7 +95,7 @@ class DenosingDitDataset:
             print(idx)
             return self.get_sample(idx)
         except Exception as e:
-            logger.warning(f"Exception occurred parsing")
+            logger.warning(f"Exception occurred parsing sample {idx}: {e}")
 
 
 
@@ -158,7 +158,7 @@ class GarmentDitDataset:
         try:
             return self.get_sample(idx)
         except Exception as e:
-            logger.warning(f"Exception occurred parsing")
+            logger.warning(f"Exception occurred parsing sample {idx}: {e}")
 
 
 def main():

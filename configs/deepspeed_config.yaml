@@ -3,8 +3,8 @@ deepspeed_config:
   deepspeed_multinode_launcher: standard
   gradient_accumulation_steps: 1
   gradient_clipping: 1.0
-  offload_optimizer_device: None
-  offload_param_device: None
+  offload_optimizer_device: cpu
+  offload_param_device: cpu
   zero3_init_flag: false
   zero_stage: 2
 distributed_type: DEEPSPEED
